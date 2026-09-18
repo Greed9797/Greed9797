@@ -1,0 +1,136 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=720&lines=E+a%C3%AD%2C+Dev.+Vitor+aqui.+%F0%9F%91%8B;Dev+%26+Coordenador+de+Projetos+%40+Grupo+W3;Startup+de+1+humano+%2B+muitos+agentes+de+IA;Construindo+em+p%C3%BAblico%2C+em+portugu%C3%AAs." alt="Vitor Miguel" />
+
+<br/>
+
+[![Grupo W3](https://img.shields.io/badge/Grupo%20W3-w3ecommerce.com.br-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.w3ecommerce.com.br)
+[![Livelab](https://img.shields.io/badge/Livelab-app.grupolivelab-0EA5E9?style=for-the-badge&logo=tiktok&logoColor=white)](https://github.com/Greed9797/Livelab-Front)
+[![Local](https://img.shields.io/badge/Brasil-Santa%20Catarina-16A34A?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+
+</div>
+
+---
+
+## 🧭 Sobre mim
+
+```typescript
+const vitor = {
+  nome: "Vitor Miguel Goedert da Luz",
+  cargo: "Dev Geral & Coordenador de Projetos",
+  onde: "Grupo W3 — e-commerce, lives e times comerciais",
+  foco: ["IA aplicada a vendas", "automações", "SaaS multi-tenant"],
+  stack: ["TypeScript", "Node", "React", "Flutter", "Supabase", "n8n"],
+  tese: "Uma pessoa + um exército de agentes entrega o que antes pedia um time.",
+  idioma: "pt-BR por padrão — código, commit e README",
+};
+```
+
+- 🤖 **IA é a alavanca central.** Uso Claude, Codex e agentes orquestrados como parte do fluxo de trabalho diário, não como brinquedo.
+- 🛒 **Vivo no e-commerce brasileiro:** TikTok Shop, Shopify, marketplaces, lives, CRM e funil de leads.
+- ⚙️ **Gosto de infra que se cuida sozinha:** hooks, harness, watchdogs, validação determinística em vez de promessa.
+- 🇧🇷 **Construo em português.** Se você lê isso e entende tudo, já somos do mesmo time.
+
+---
+
+## 🛠️ Stack
+
+<div align="center">
+
+**Linguagens**
+
+<img src="https://skillicons.dev/icons?i=ts,js,python,dart,html,css,bash&theme=dark" alt="linguagens" />
+
+**Front & Mobile**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,flutter,tailwind,vite&theme=dark" alt="front" />
+
+**Back & Dados**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,supabase,firebase,redis&theme=dark" alt="back" />
+
+**Infra & Ferramentas**
+
+<img src="https://skillicons.dev/icons?i=vercel,docker,git,github,githubactions,linux,figma&theme=dark" alt="infra" />
+
+</div>
+
+---
+
+## 🚀 Projetos em destaque
+
+<div align="center">
+
+<a href="https://github.com/Greed9797/Livelab-Front">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Greed9797&repo=Livelab-Front&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316" alt="Livelab-Front" />
+</a>
+<a href="https://github.com/Greed9797/Livelab-back">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Greed9797&repo=Livelab-back&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316" alt="Livelab-back" />
+</a>
+
+<a href="https://github.com/Greed9797/palmier-x">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Greed9797&repo=palmier-x&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316" alt="palmier-x" />
+</a>
+<a href="https://github.com/Greed9797/codex-chrome-watchdog">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Greed9797&repo=codex-chrome-watchdog&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316" alt="codex-chrome-watchdog" />
+</a>
+
+<a href="https://github.com/Greed9797/W3ADS">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Greed9797&repo=W3ADS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316" alt="W3ADS" />
+</a>
+<a href="https://github.com/Greed9797/openbot-local">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Greed9797&repo=openbot-local&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316" alt="openbot-local" />
+</a>
+
+</div>
+
+| Projeto | O que é | Stack |
+|---|---|---|
+| **Livelab** | SaaS de gestão de lives de venda (TikTok Shop): agenda de cabines, comissão, rateio, ranking público, portal do cliente | Node + Postgres/Supabase + Flutter |
+| **palmier-x** | Reescrita desktop do Palmier para Windows, build só via CI | Flutter |
+| **codex-chrome-watchdog** | Watchdog macOS que mantém o native-messaging Codex ↔ Chrome vivo | Shell |
+| **W3ADS / W3-Trafego-Pago** | Tooling e CRM interno de tráfego pago com webhooks, API e MCP | TypeScript + Supabase |
+| **openbot-local** | Bot de agentes 24/7 na VPS, sem dependência de licença | TypeScript |
+| **Transcritor** | Transcrição de áudio com Groq na cota gratuita `>:)` | JavaScript |
+
+---
+
+## 📊 Números
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Greed9797&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F97316&icon_color=F97316&locale=pt-br" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Greed9797&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F97316&locale=pt-br" alt="linguagens" />
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Greed9797&theme=tokyonight&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&locale=pt_BR" alt="streak" />
+
+<br/><br/>
+
+<img src="https://github.com/Greed9797/Greed9797/blob/output/github-snake-dark.svg?raw=true" alt="cobrinha das contribuições" />
+
+</div>
+
+---
+
+## 🧠 Como eu trabalho
+
+```
+PLAN (Claude) → BUILD (Claude) → REVIEW (Codex) → TRIAGE → FIX → SHIP
+```
+
+- Revisão sempre cross-provider: **quem escreve não é o único que revisa.**
+- Evidência ou nada: sem "feito" sem teste rodado, rota respondendo ou tela clicada.
+- Hooks > regras escritas. Regra em texto tem 28 % de adesão; hook tem 100 %.
+- Token é dinheiro: `rtk`, `distill`, `fastcontext` e `graft` antes de abrir arquivo grande.
+
+---
+
+<div align="center">
+
+**Bora construir algo?** Abre uma issue, manda um PR ou me chama.
+
+<img src="https://komarev.com/ghpvc/?username=Greed9797&color=F97316&style=flat-square&label=visitas" alt="visitas" />
+
+</div>
