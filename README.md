@@ -124,14 +124,34 @@ const vitor = {
 
 ## 🧠 Como eu trabalho
 
+Meu editor é o **Zed** (agente `omp` plugado por ACP) e o **Cursor**. O harness é o [`w3-omp-harness`](https://github.com/Greed9797/w3-omp-harness): `AGENTS.md` + `RULES.md` + regras TTSR + 170 skills + pilha de tokens. Um humano orquestra, vários modelos executam.
+
 ```
-PLAN (Claude) → BUILD (Claude) → REVIEW (Codex) → TRIAGE → FIX → SHIP
+ENTENDER (graft → fastcontext → smart-extract)
+   → ESCADA PONYTAIL (precisa existir? já existe? stdlib? nativo? uma linha?)
+   → BUILD (menor diff correto, zero placeholder)
+   → EVIDÊNCIA (build + teste + tela clicada, output filtrado)
+   → REVIEW cross-model (the-judge + advisor)
+   → COMMIT
 ```
 
-- Revisão sempre cross-provider: **quem escreve não é o único que revisa.**
-- Evidência ou nada: sem "feito" sem teste rodado, rota respondendo ou tela clicada.
-- Hooks > regras escritas. Regra em texto tem 28 % de adesão; hook tem 100 %.
-- Token é dinheiro: `rtk`, `distill`, `fastcontext` e `graft` antes de abrir arquivo grande.
+**Papéis por modelo** — barato capaz vence, escala por dificuldade observada:
+
+| Papel | Modelo | Quando |
+|---|---|---|
+| `default` / `task` / `slow` | Grok 4.6 | executor principal |
+| `smol` / `tiny` / `commit` | Grok 4.5 fast | localizar, sintetizar, mensagem de commit |
+| `plan` | Claude Opus 5 `xhigh` | só com decisão relevante |
+| `advisor` / `worker` | Muse Spark 1.3 | segundo modelo revisando cada turno |
+
+**O que sustenta isso:**
+
+- 🧱 **graft antes de grep.** Toda pergunta estrutural (onde fica, quem chama, o que quebra) começa no grafo do repo, nunca lendo arquivo inteiro.
+- ⚡ **TTSR — regras que abortam o stream.** Cada incidente real vira uma regex em `~/.omp/agent/rules/`: `ON CONFLICT ON CONSTRAINT`, pooler `:6543`, `@{u}` sem upstream, `spawnSync` em teste HTTP, `slice(-2)` em cookie. Regra escrita tem ~28 % de adesão; regra que interrompe o token tem 100 %.
+- 🔍 **Quem escreve não é o único que revisa.** Advisor ligado em todo turno + `the-judge` no diff antes do commit; auth, migration ou dinheiro passa por outro provider.
+- 🧾 **Evidência ou nada.** "Feito" exige build e teste verdes, nenhum teste apagado, diff do tamanho do pedido. Bloqueio real vira `BLOCKED / TRIED / NEED`.
+- 🪙 **Token é dinheiro.** `rtk` reescreve o shell, `distill-smart` resume build/log, `smart-extract` corta ~95 % da leitura. Output verboso nunca entra cru.
+- 📝 **Decisão de schema, segurança ou dinheiro vai pro `STATE.md`** antes de seguir — resumo de sessão é compressão com perda.
 
 ---
 
