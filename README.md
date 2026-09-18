@@ -1,12 +1,15 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=720&lines=E+a%C3%AD%2C+Dev.+Vitor+aqui.+%F0%9F%91%8B;Dev+%26+Coordenador+de+Projetos+%40+Grupo+W3;Startup+de+1+humano+%2B+muitos+agentes+de+IA;Construindo+em+p%C3%BAblico%2C+em+portugu%C3%AAs." alt="Vitor Miguel" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=720&lines=E+a%C3%AD%2C+Dev.+Vitor+aqui.+%F0%9F%91%8B;Head+of+Automation+%7C+Tech+Lead+%7C+Head+W3bsite;Startup+de+1+humano+%2B+muitos+agentes+de+IA;Isso+vai+ser+diferente." alt="Vitor Miguel" />
 
 <br/>
 
-[![Grupo W3](https://img.shields.io/badge/Grupo%20W3-w3ecommerce.com.br-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.w3ecommerce.com.br)
-[![Livelab](https://img.shields.io/badge/Livelab-app.grupolivelab-0EA5E9?style=for-the-badge&logo=tiktok&logoColor=white)](https://github.com/Greed9797/Livelab-Front)
-[![Local](https://img.shields.io/badge/Brasil-Santa%20Catarina-16A34A?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+[![Site](https://img.shields.io/badge/vitor.w3bsite.com.br-minha%20vida%20fora%20do%20feed-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://vitor.w3bsite.com.br)
+[![W3bsite](https://img.shields.io/badge/W3bsite-w3bsite.com.br-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white)](https://www.w3bsite.com.br)
+[![Grupo W3](https://img.shields.io/badge/Grupo%20W3-w3ecommerce.com.br-16A34A?style=for-the-badge&logo=shopify&logoColor=white)](https://www.w3ecommerce.com.br)
+
+[![Instagram](https://img.shields.io/badge/@vitormgdl-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/vitormgdl)
+[![TikTok](https://img.shields.io/badge/@vitormgdl-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@vitormgdl)
 
 </div>
 
@@ -17,8 +20,10 @@
 ```typescript
 const vitor = {
   nome: "Vitor Miguel Goedert da Luz",
-  cargo: "Dev Geral & Coordenador de Projetos",
+  idade: 17, // nascido em 26/01/2009
+  cargo: ["Head of Automation", "Tech Lead", "Head W3bsite"],
   onde: "Grupo W3 — e-commerce, lives e times comerciais",
+  desde: "2+ anos criando sites, 4+ anos com IA",
   foco: ["IA aplicada a vendas", "automações", "SaaS multi-tenant"],
   stack: ["TypeScript", "Node", "React", "Flutter", "Supabase", "n8n"],
   tese: "Uma pessoa + um exército de agentes entrega o que antes pedia um time.",
@@ -30,6 +35,9 @@ const vitor = {
 - 🛒 **Vivo no e-commerce brasileiro:** TikTok Shop, Shopify, marketplaces, lives, CRM e funil de leads.
 - ⚙️ **Gosto de infra que se cuida sozinha:** hooks, harness, watchdogs, validação determinística em vez de promessa.
 - 🇧🇷 **Construo em português.** Se você lê isso e entende tudo, já somos do mesmo time.
+- 🎬 **Não vendo serviço, conto história.** Tudo que eu sei fazer nasceu da minha vida — e ela tá em [vitor.w3bsite.com.br](https://vitor.w3bsite.com.br).
+
+> *"O homem que superou a si mesmo considera seus erros como passos necessários para a sua grandeza."* — Nietzsche
 
 ---
 
@@ -129,7 +137,9 @@ PLAN (Claude) → BUILD (Claude) → REVIEW (Codex) → TRIAGE → FIX → SHIP
 
 <div align="center">
 
-**Bora construir algo?** Abre uma issue, manda um PR ou me chama.
+**Bora construir algo?** Abre uma issue, manda um PR ou me chama no [Instagram](https://www.instagram.com/vitormgdl).
+
+*Sempre tinha que ser assim.*
 
 <img src="https://komarev.com/ghpvc/?username=Greed9797&color=F97316&style=flat-square&label=visitas" alt="visitas" />
 
